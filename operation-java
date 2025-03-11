@@ -1,0 +1,13 @@
+
+public class HelloWorld {
+    public static void main(String[] args) {
+        // Write your code here 💖
+        int chemicalA = (int)(Math.random() *51);
+        int chemicalB = (int)(Math.random() *51);
+
+        int result = ((chemicalA + chemicalB)/(chemicalA*chemicalB));
+
+        System.out.println("result is: " + result);
+
+    }
+}
