@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class HelloWorld {
+    public static void main(String[] args) {
+        // Write your code here 💖
+        float result;
+        int coins;
+
+        Scanner scan = new Scanner(System.in);
+
+        System.out.println("-------- Club Penguin coin Calculator--------");
+        System.out.println("Please enter your coin count! : ");
+
+        coins = scan.nextInt();
+        result = (float)coins * (float)0.0045;
+
+        System.out.println("calculating...");
+        System.out.println("You have " + coins + " coins." + "\n" + "theyre equal to " + (double)result + "USD");
+        System.out.println("--------- END --------");
+    
+    }
+}
