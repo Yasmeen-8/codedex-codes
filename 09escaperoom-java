@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class HelloWorld {
+    public static void main(String[] args) {
+        // Write your code here 💖
+        System.out.println("I speak without a mouth and hear without ears. I have no body, but I come alive with the wind. What am I?");
+        Scanner scan = new Scanner(System.in);
+
+        String answer = scan.nextLine();
+
+        System.out.println("your answer is " + answer + "  Goodjob!");
+
+
+    }
+}
