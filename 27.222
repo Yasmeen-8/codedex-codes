@@ -1,0 +1,20 @@
+public class HelloWorld {
+    // Create method here 💖
+
+    
+    public static void main(String[] args) {
+          boolean varname = isEqual222(111,111,0);
+          System.out.println(varname);
+    }
+
+    public static boolean isEqual222 (int num1, int num2, int num3){
+        int number = num1+num2+num3;
+
+
+        if (number == 222){
+            return true;
+        }else{
+            return false;
+        }
+    }
+}
