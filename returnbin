@@ -1,0 +1,20 @@
+public class HelloWorld {
+
+    // Create returnBin() method here 💖
+    public static void returnBin(String[] items){
+        System.out.println("Items to Return");
+        System.out.println("---------------");
+        int itemnum = items.length;
+        int listnum = 1;
+        for (int i = 0; i < itemnum; i++){
+            System.out.println(listnum + ". " + items[i]);
+            listnum++;
+        }
+    }
+
+
+    public static void main(String[] args) {
+        String[] myItems = {"Apple Watch", "Size 9 Shoes", "Wallet", "Suitcase", "Laptop"};
+        returnBin(myItems);
+    }
+}
